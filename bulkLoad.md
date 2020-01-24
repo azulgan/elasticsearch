@@ -86,5 +86,5 @@ The same
 The goal of this howto was to permit to transmit data from one elasticsearch index into one another. 
 I have used only basic shell commands like curl and of course the elastic search API.
 The only tool that might be non installed by default on your linux distribution is jq. It permits to query and reformat the input json.
-But it should be far from efficient when talking about performance. For a real life index, if it is not possible to avoid the migration of data, I would recommand to use elasticsearch-dump
+But it should be far from efficient when talking about performance. For a real life index, if it is not possible to avoid the migration of data, I would recommand to use )[elasticsearch-dump](elasticsearch-dump.md)
 
